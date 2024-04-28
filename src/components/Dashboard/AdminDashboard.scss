@@ -1,0 +1,267 @@
+@keyframes Blinking {
+    0% {
+        opacity: 0;
+        box-shadow: 0 0 0 0 blue;
+    }
+    40% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+        box-shadow: 0 0 0 40px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.AdminDashboard-Container {
+    height: 100%;
+    width: 100%;
+    .Sub-Container {
+        height: 100%;
+        min-width: 1517.5px;
+        .Body {
+            height: 90.5%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            .Sub-Body {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .SubBody11 {
+                    width: 20%;
+                    height: 100%;
+                    padding: 5px 0 0 0;
+                    box-sizing: border-box;
+                    transition: width 0.3s;
+                    z-index: 1;
+                    background-color: #202020;
+                }
+                .SubBody12 {
+                    width: 5%;
+                    height: 100%;
+                    padding: 5px 0 0 0;
+                    box-sizing: border-box;
+                    transition: width 0.3s;
+                    z-index: 1;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #202020;
+                }
+                .SubBody21 {
+                    width: 80%;
+                    height: 100%;
+                    z-index: 1;
+                    transition: width 0.3s;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    // background-color: #202020af;
+                    background-color: white;
+                    width: 96%;
+                    border: none;
+                }
+                .SubBody22 {
+                    width: 95%;
+                    height: 100%;
+                    z-index: 1;
+                    transition: width 0.3s;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    // background-color: #202020af;
+                    background-color: white;
+                }
+
+                .NavButton1 {
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+                    cursor: pointer;
+                    padding-left: 10px;
+                    background-color: rgba(112, 111, 110, 0.253);
+                    .NavButtonText {
+                        color: yellow;
+                        width: 80%;
+                        font-family: "Roboto";
+                        font-weight: 500;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    &:hover {
+                        background-color: rgba(112, 111, 110, 0.253);
+                    }
+                }
+                .NavButton2 {
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+                    cursor: pointer;
+                    padding-left: 10px;
+                    .NavButtonText {
+                        width: 80%;
+                        font-family: "Roboto";
+                        font-weight: 500;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    &:hover {
+                        background-color: rgba(112, 111, 110, 0.253);
+                    }
+                }
+                .DashBoard {
+                    height: inherit;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 50px;
+                    font-family: "Roboto";
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+.Note {
+    height: 15%;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: red;
+}
+.Setting {
+    width: inherit;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    .AcRoom-Setting {
+        height: 90%;
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .Title {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-family: "Roboto";
+            font-weight: 500;
+            margin: 0 0 20px 0;
+        }
+    }
+    .NonAcRoom-Setting {
+        height: 90%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .Title {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-family: "Roboto";
+            font-weight: 500;
+            margin: 0 0 20px 0;
+        }
+    }
+}
+.Button {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Input-Field {
+    display: flex;
+    width: 450px;
+    margin: 7px;
+    .Text {
+        width: 200px;
+        margin: 8px 10px 8px 0;
+        font-family: "Roboto";
+        font-weight: 500;
+    }
+    .Text-Input {
+        width: 300px;
+    }
+}
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 500;
+    background-color: black;
+    color: white;
+}
+.Row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+.Row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    margin: 0 5px;
+}
+
+
+.search {
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.151);
+    margin: 0 30px 0 0;
+    width: 30%;
+    height: 42px;
+    display: flex;
+
+    .searchIcon {
+        padding: 0 10px;
+        width: 8%;
+        height: 100%;
+        // position: absolute;
+        pointer-events: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inputRoot {
+        color: inherit;
+        width: 92%;
+    }
+    .inputInput {
+        padding: 10px 10px 10px 0;
+        width: 100%;
+    }
+}
+
+.search:is(:hover) {
+    background-color: rgba(255, 255, 255, 0.212);
+}

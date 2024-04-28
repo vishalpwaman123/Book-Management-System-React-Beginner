@@ -1,0 +1,26 @@
+.GetBook-Container {
+    height: inherit;
+    width: inherit;
+    background-color: #202020af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .GetBook-SubContainer {
+        height: 90%;
+        width: inherit;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .MuiPaginationItem-outlinedSecondary.Mui-selected {
+        color: black;
+        border: black;
+        background-color: white;
+    }
+}

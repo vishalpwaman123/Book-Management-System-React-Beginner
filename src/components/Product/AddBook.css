@@ -1,0 +1,37 @@
+.AddBook-Container {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020af;
+  }
+  .AddBook-Container .AddBook-SubContainer {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .AddBook-Container .AddBook-SubContainer .AddBook-Box1 {
+    height: 90%;
+    width: 35%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .AddBook-Container .AddBook-SubContainer .AddBook-Box1 .ImageField {
+    height: 82%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .AddBook-Container .AddBook-SubContainer .AddBook-Box2 {
+    height: 90%;
+    width: 45%;
+  }
+  
